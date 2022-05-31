@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+}
+.background{
+    width: 100%;
+    position: relative;
+    background: url(dyen/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    overflow: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen {
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:white;
+   
+}
+.logo{
+    color: rgb(188, 186, 186);
+    letter-spacing: 3px;
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+}
+.logo li{
+    margin-left: 20px;
+    
+    margin-top: 1vh;
+}
+#oma{
+    cursor: pointer;
+
+}
+#oma:hover{
+    color: green;
+
+
+}
+
+.hidden-message{
+    opacity: 0;
+    
+    width: 200vh;
+    
+  
+    background-color: white;
+    margin-left:0% ;
+    margin-right: 0%;
+    height: 40vh;
+    
+}
+ .features:hover .hidden-message{
+    
+opacity: 1;
+}
+
+   
+      
+   
+    
+.innerdiv{
+    display: flex;
+    flex-direction: row;
+    width: ;
+    margin-left: 150px;
+    justify-content:space-;
+}
+.innerdiv img{
+   
+   padding : -20px;
+}
+
+.logo li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+    
+
+}
+#lod{
+    border: 2px rgb(6, 219, 6);
+    border-style: solid;
+    padding: 10px;
+    color: rgb(217, 233, 217);
+}
+#lod:hover{
+    color: rgb(59, 188, 59);
+    transition-duration: 2s;
+    transition: ease-out 2s;
+}
+.nav-links li{
+    list-style: none;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(188, 186, 186);
+    margin: 5px;
+}
+
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 40%;
+    }
+}
+@media screen and (max-width:814px){
+    .nav-links{
+        width: 50;
+    }
+}
+
+@media screen and (max-width:768px) {
+    body{ overflow-x: hidden;}
+    .burger{
+        display: block;
+    }
+
+
+    
+
+
+
+       
+
+    .nav-links{
+        position:absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:white;
+        width: 30%;        transform: translateX(100%);
+        transition: transform 0.7s ease-in;
+        box-shadow: 2px 2px 10px grey;
+      ;
+
+    }
+    .nav-links li{
+        opacity: 1;
+
+    }
+
+
+   
+    .nav-active{
+        transform: translateX(0%);
+        opacity: 1;
+    } }
+    .advert{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    @media screen and (max-width:1024px){
+        .tame{
+            width: 60%;
+        }
+        .tame img{
+            width: 50px;
+        }
+    }
+    .advert button{
+        margin-top: 20vh;
+       
+        width:20vh;
+        height: 8vh;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(4, 78, 4);
+    }
+    Button:hover{
+        background-color: rgb(34, 125, 34);
+        transition-duration: 2s;
+    }
+    .text{
+        color: white;
+        flex-direction: column;
+    }
+    .text h2{
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+        font-size: 6vh;
+    }
+    #harsh{
+        font-size: 3vh;
+    }
+    .tame{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        margin-right: 20%;
+        margin-top: 10vh;
+       
+    }
+    .tame img{
+        }
+    .tame h2{
+        font-size: 5vh;
+    }
+    #dough{
+        margin-top: 5vh;
+        font-size: 3vh;
+        
+    } 
+
+    .tame button{
+        padding-left: 2vh;
+        margin-top: 10vh;
+        padding-top: 1.vh;
+        width:23vh;
+        height: 5vh;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(6, 190, 6);
+        margin-left: 14vh;
+    
+       
+    }
+    Button:hover{
+        background-color: rgb(75, 239, 75);
+    }
+    #er{
+        margin-top: 5vh;
+        margin-left: 14vh;
+    }
+    .new-page{
+        margin-top: 4vh;
+        display: flex;
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+    .notes{
+        flex-direction: column;
+    }
+    .notes h2{
+        margin-top: 3vh;
+        padding-top: 3vh;
+        font-size: 2vh;
+    }
+
+    .notes p{
+        margin-top: 3vh;
+    }
+    .productivity{
+        margin-left: 20%;
+
+    }
+    .productivity h2{
+        margin-top: 4vh;
+        font-size: 4vh;
+        margin-left: 20%;
+    }
+    .productivity p{
+        margin-top: 2vh;
+        margin-left: 32%;
+    }
+    #er:hover{color:rgb(6, 190, 6);
+        transition-duration: 2s;
+
+    }
+    .slider{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+    }
+    
+.keypoints{
+    display: flex;
+    margin-left: 10%;
+    margin: 10%;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.col4{
+    display: flex;
+    flex-direction: row;
+}
+.col4 h2{
+    margin-bottom: 2vh;
+    font-size: 6vh;
+}
+.col4 p{
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+.col4 a{
+    font-size: 2vh;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+
+}
+.find{
+    text-align: center;
+    margin-bottom: 10vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.find h1{
+    margin-bottom: 2vh;
+}
+.find p{
+    margin-bottom: 2vh;
+    font-weight: 500;
+    font-size: 4vh;
+}
+.find a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+.prices{
+    display: flex;
+    margin-left: 10%;
+    
+}
+.col3{
+    margin-left: 20px;
+    
+    width: 50vh;
+}
+.kill p{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+
+
+.gf{
+    margin-left: 20px;
+    margin-right: 20px;}
+    .god img{
+        width: 20px;
+
+    }
+    .god{
+        display: flex;
+    }
+.col3 a {
+    margin-bottom: 4px;
+}
+.collabo{
+    margin-top: 10vh;
+    height: 30vh;
+    width: 120vh;
+    margin-left: 20%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+}
+.collabo img{
+    padding-top: 5vh;
+    width: 12vh;
+    max-width: 100%;
+}
+.jj{
+    flex-direction: column;
+    font-size: 3vh;
+}
+.naira{
+    flex-direction: row;
+    
+}
+.jesus{
+    font-size: 5vh;
+    
+}
+.month{
+    font-size: 2vh;
+    font-weight: bold;
+}
+.collabo p{
+    padding-top: 4vh;
+    
+    
+}
+    .evernoteicon{
+        margin-top: 15vh;
+        height: 10vh;
+        
+        width: 120vh;
+        margin-left: 10%;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 20%;
+        border-top: 3px solid black;
+        padding-top: 4vh;
+        
+        
+    }
+   .product{
+       flex-direction: column;
+       
+   }
+.links{
+    margin-top: 4vh;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    font-size: 15px;
+}
+.product a:hover{
+    color: rgb(2, 169, 2);
+}
+.almostdone{
+    margin-top: 10VH;
+    display: flex;
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-right: 10%;
+    
+}
+
+.almostdone a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    
+}
+.done{
+    border-top: 1px solid grey;
+    display: flex;
+    padding-top: 5vh;
+    justify-content: space-between;
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.death{
+    display:flex ;
+   
+
+}
+.burial{
+    margin-right: 10px;
+   
+} 
+.burial a{
+    text-decoration: none;
+    color: gray;
+} 
+.burial a:hover{
+    color: black;
+}
+
+
+
+
+
+ 
